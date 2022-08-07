@@ -1,0 +1,26 @@
+/* Green */
+/* :root {
+	--color-bg: #3b444b;
+	--color-bg-alt: var(--color-bg);
+	--color-fg: #faf3dd;
+	--color-accent1: #8fc0a9;
+	--color-accent2: #c8d5b9;
+} */
+
+/* Blue Red and Black Paranoia! */
+/* :root {
+	--color-bg: #150c18;
+	--color-bg-alt: var(--color-bg);
+	--color-fg: #e1d5d0;
+	--color-accent1: #2c81aa;
+	--color-accent2: #93758f;
+} */
+
+:root {
+	--color-bg: #333652;
+	--color-bg-alt: var(--color-bg);
+	/* --color-fg: #1b1b1b; */
+	--color-fg: #e9eaec;
+	--color-accent2: #90adc6;
+	--color-accent1: #fad02c;
+}

@@ -1,0 +1,129 @@
+@import url("./src/palette.css");
+
+@font-face {
+  font-family: "GothicPixel";
+  src: url("./src/font/GothicPixel.otf");
+}
+
+@font-face {
+  font-family: "Cozette";
+  src: url("./src/font/Cozette.otf");
+}
+
+html {
+	color: var(--color-fg);
+	background: var(--color-bg);
+}
+
+body {
+	font-family: "Cozette";
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "GothicPixel";
+}
+
+header {
+	padding: 25px;
+	line-height: 10px;
+	text-align: center;
+	white-space: pre;
+	color: var(--color-accent1);
+}
+
+table {
+	width: 50%;
+}
+
+td {
+	width: 10%;
+	text-align: center;
+}
+
+a:link {
+	text-decoration: none;
+	color: var(--color-accent1);
+}
+
+a:visited {
+	color: var(--color-accent1);
+}
+
+a:hover {
+	color: var(--color-accent1);
+}
+
+.accent1 {
+	color: var(--color-accent1);
+}
+
+.accent2 {
+	color: var(--color-accent2);
+}
+
+/* Layout */
+#main {
+	width: 800px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	/* margin-left: auto; */
+	/* margin-right: auto; */
+}
+
+#left {
+	float: left;
+	width: 500px;
+	height: auto;
+	padding: 10px;
+	background-color: var(--color-accent2);
+	margin-bottom: 25px;
+}
+
+#right {
+	float: right;
+	width: 260px;
+	height: 700px;
+}
+
+#topright {
+	background-color: var(--color-accent2);
+	padding: 10px;
+	margin-bottom: 25px;
+}
+
+#botright {
+	background-color: var(--color-accent2);
+	padding: 10px;
+	margin-bottom: 25px;
+}
+
+#umbrella {
+	max-width: 256px;
+	max-height: 256px;
+}
+
+#notfound {
+	background-color: var(--color-accent2);
+	padding-top: 25px;
+	margin-top: 200px;
+	width: 400px;
+	height: 250px;
+}
+
+.link {
+	font-size: 18px;
+}
+
+#blinkies {
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li:before {
+	content: '* ';
+	font-weight: bold;
+}
