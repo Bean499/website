@@ -86,16 +86,18 @@ a:hover {
 	height: 700px;
 }
 
-#topright {
+#topright, #midright, #botright {
 	background-color: var(--color-accent2);
 	padding: 10px;
 	margin-bottom: 20px;
 }
 
-#botright {
-	background-color: var(--color-accent2);
-	padding: 10px;
-	margin-bottom: 20px;
+#midright {
+	height: 240px;
+}
+
+.face {
+	max-width: 240px;
 }
 
 /* #back2top {
@@ -134,4 +136,8 @@ ul li:before {
 
 .stuffimg {
 	max-width: 500px;
+}
+
+.face {
+	max-width: 
 }
