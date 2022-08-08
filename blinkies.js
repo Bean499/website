@@ -3,7 +3,7 @@ const blinkies = [
 	"miku",
 	"autism",
 	"gay",
-	// "nb",
+	"nb",
 	// "kirby",
 	"arch",
 	// "linux",
