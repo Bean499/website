@@ -127,3 +127,7 @@ ul li:before {
 	content: '* ';
 	font-weight: bold;
 }
+
+.stuffimg {
+	max-width: 500px;
+}
