@@ -93,16 +93,8 @@ a:hover {
 }
 
 #midright {
-	height: 240px;
+	height: auto;
 }
-
-.face {
-	max-width: 240px;
-}
-
-/* #back2top {
-	width: fit-content;
-} */
 
 #umbrella {
 	max-width: 256px;
@@ -134,10 +126,14 @@ ul li:before {
 	font-weight: bold;
 }
 
-.stuffimg {
+#left img {
 	max-width: 500px;
 }
 
-.face {
-	max-width: 
+#right img {
+	max-width: 240px;
+}
+
+hr {
+	border-color: var(--color-accent1);
 }
