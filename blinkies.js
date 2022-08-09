@@ -1,12 +1,12 @@
 const blinkies = [
 	"button",
 	"miku",
-	//"autism",
-	//"gay",
-	//"nb",
+	"linux",
+	// "autism",
+	// "gay",
+	// "nb",
 	// "kirby",
 	"arch",
-	// "linux",
 	"computer",
 	"vim",
 ]
@@ -14,7 +14,7 @@ const blinkies = [
 for (i = 0; i < blinkies.length; i++){
 	if (blinkies[i] == "button") {
 		image = "./src/" + blinkies[i] + ".gif";
-		$("#blinkies").append("<img src=" + image + "><br><br>")
+		$("#blinkies").append("<img src=" + image + "><hr>")
 	}
 	else {
 		image = "./src/blinkies/" + blinkies[i] + ".gif";
