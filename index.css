@@ -139,8 +139,12 @@ hr {
 	border-color: var(--color-accent1);
 }
 
-#hcb_form_name, #hcb_form_content, .btn, .home-desc, #comments_list, #hcb_subscribe, #hcb_settings {
+#hcb_form_name, #hcb_form_content, .btn, .home-desc, #comments_list, #hcb_subscribe, #hcb_settings, #hcb_msg {
 	font-family: "Cozette" !important;
+}
+
+#hcb_msg {
+	margin: 0;
 }
 
 .home-desc {
