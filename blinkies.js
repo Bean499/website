@@ -1,8 +1,8 @@
 const blinkies = [
 	"button",
 	"miku",
-	"autism",
-	"gay",
+	//"autism",
+	//"gay",
 	//"nb",
 	// "kirby",
 	"arch",
