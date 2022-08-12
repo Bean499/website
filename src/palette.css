@@ -16,11 +16,42 @@
 	--color-accent2: #93758f;
 } */
 
-:root {
+/* :root {
 	--color-bg: #333652;
 	--color-bg-alt: var(--color-bg);
-	/* --color-fg: #1b1b1b; */
 	--color-fg: #e9eaec;
 	--color-accent2: #90adc6;
 	--color-accent1: #fad02c;
+} */
+
+:root {
+	/* dark */
+	--color-dark-bg: #002b36;
+	--color-dark-bg-alt: #073642;
+	--color-dark-fg: #93a1a1;
+	--color-dark-accent1: #b58900;
+	--color-dark-accent2: #2aa198;
+
+	/* light */
+	--color-light-bg: #fdf6e3;
+	--color-light-bg-alt: #eee8d5;
+	--color-light-fg: #586e75;
+	--color-light-accent2: #b58900;
+	--color-light-accent1: #2aa198;
+}
+
+.light {
+	--color-bg: 		var(--color-light-bg);
+	--color-bg-alt: 	var(--color-light-bg-alt);
+	--color-fg: 		var(--color-light-fg);
+	--color-accent1: 	var(--color-light-accent1);
+	--color-accent2: 	var(--color-light-accent2);
+}
+
+.dark {
+	--color-bg: 		var(--color-dark-bg);
+	--color-bg-alt: 	var(--color-dark-bg-alt);
+	--color-fg: 		var(--color-dark-fg);
+	--color-accent1: 	var(--color-dark-accent1);
+	--color-accent2: 	var(--color-dark-accent2);
 }
