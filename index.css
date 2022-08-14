@@ -41,7 +41,7 @@ a:visited {
 }
 
 a:hover {
-	color: var(--color-accent1);
+	color: var(--color-accent2);
 }
 
 .accent1 {
