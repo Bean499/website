@@ -1,5 +1,6 @@
 const blinkies = [
 	"button",
+	"wave",
 	"miku",
 	"linux",
 	// "autism",
