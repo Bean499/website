@@ -1,0 +1,22 @@
+/* HTML comment box */
+#HCB_comment_box {
+	padding: 0 0.5rem 0.5rem 0.5rem;
+}
+
+#hcb_form_name, #hcb_form_content, .btn, .home-desc, #comments_list, #hcb_subscribe, #hcb_settings, #hcb_msg {
+	font-family: "Cozette" !important;
+}
+
+#hcb_msg {
+	margin: 0;
+}
+
+.home-desc {
+	display: none;
+	visibility: hidden;
+}
+
+.home-desc a {
+	text-decoration: underline !important;
+	color: var(--color-accent1) !important;
+}

@@ -1,0 +1,18 @@
+#sitemap-container {
+	width: 230px;
+	margin: auto;
+}
+
+#sitemap-container ul {
+	list-style: none;
+}
+
+#sitemap-container ul li:before {
+	content: '├─ ';
+	font-weight: bold;
+}
+
+#sitemap-container ul li:last-child:before {
+	content: '└─ ';
+	font-weight: bold;
+}

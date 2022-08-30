@@ -1,0 +1,38 @@
+.status {
+	position: relative;
+	height: 140px;
+	width: 600px;
+	background-color: var(--color-bg);
+}
+
+.status:after {
+	content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: var(--color-bg);
+    border-bottom: 0;
+    border-right: 0;
+    margin-left: -20px;
+    margin-bottom: -20px;
+}
+
+#status-name {
+	font-size: 30px;
+	margin: 10px;
+	font-family: "GothicPixel";
+	font-weight: bold;
+}
+
+#status-content {
+	font-size: 20px;
+	color: var(--color-accent2);
+}
+
+#when {
+	padding-top: 10px;
+	font-size: 20px;
+}
