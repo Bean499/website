@@ -1,11 +1,11 @@
-.status {
+#status {
 	position: relative;
 	height: 140px;
 	width: 600px;
 	background-color: var(--color-bg);
 }
 
-.status:after {
+#status:after {
 	content: '';
     position: absolute;
     bottom: 0;
