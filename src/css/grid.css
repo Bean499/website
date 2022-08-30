@@ -29,7 +29,7 @@
 
 /* @media screen and (min-width: 600px) { */
 .card-tall {
-	grid-row: span 3 / auto;
+	grid-row: span 2 / auto;
 }
 
 .card-wide {

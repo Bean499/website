@@ -23,3 +23,6 @@ const songs = [
 for (i = songs.length - 1; i > -1; i--) {
 	$("#songs").append("<div class='song'><h2>" + songs[i][0] + " - " + songs[i][1] + "</h2><img src='src/img/songs/" + i + ".png' class='cover'><p>" + songs[i][2] + "</p></div>")
 }
+
+$("#recentsong").attr("src", "src/img/songs/" + (songs.length - 1) + ".png");
+$("#recenttitle").html(songs[songs.length - 1][0]);
