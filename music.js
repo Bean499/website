@@ -18,6 +18,18 @@ const songs = [
 		also like the piano, and the clicks are also simply
 		wonderful. As to be expected of the Meagaman X series.`
 	],
+	[
+		"TSUKI NO SHIHAI", "31/08/2022",
+		`This is probably my favourite song from Guilty Gear Xrd,
+		tied with Destructive Goodwill (expect to see that song
+		appear soon). I'm a really really big fan of Raven:
+		he's probably my third favourite character in the series,
+		after Faust and Testament. Hopefully we'll see him in
+		Guilty Gear -STRIVE- one day as a DLC character. I can only
+		hope. Anyways, I'm glad they decided to do lyrical songs
+		for the Revelator character themes because this one's just
+		cracking.`
+	],
 ]
 
 for (i = songs.length - 1; i > -1; i--) {
