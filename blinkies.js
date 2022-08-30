@@ -19,6 +19,9 @@ for (i = 0; i < blinkies.length; i++){
 	}
 	else {
 		image = "./src/blinkies/" + blinkies[i] + ".gif";
-		$("#blinkies").append("<img src=" + image + "><br>")
+		$("#blinkies").append("<img src=" + image + ">");
+		if (i != blinkies.length - 1) {
+			$("#blinkies").append("<br>");
+		}
 	}
 }
