@@ -3,8 +3,11 @@
 <html lang="en">
 	<head>
 		<link rel="stylesheet" type="text/css" href="./index.css">
-		<link rel="stylesheet" type="text/css" href="./src/crt.css">
-		<link rel="stylesheet" type="text/css" href="./src/rainbow.css">
+		<link rel="stylesheet" type="text/css" href="./src/css/crt.css">
+		<link rel="stylesheet" type="text/css" href="./src/css/rainbow.css">
+		<link rel="stylesheet" type="text/css" href="./src/css/grid.css">
+		<link rel="stylesheet" type="text/css" href="./src/css/status.css">
+		<link rel="stylesheet" type="text/css" href="./src/css/comments.css">
 		<link rel="shortcut icon" href="favicon.ico">
 		<meta charset="utf-8">
 		<title>Bean's Realm</title>
@@ -27,67 +30,94 @@ ___                                  68b                                        
  MM    MM MM       MM'   MM  MM    MM       `Mb        MM     MM       MM'   MM  MM  MM    MM    MM <br>
  MM.  ,M9 YM    d9 MM.  ,MM  MM    MM  L    ,MM        MM     YM    d9 MM.  ,MM  MM  MM    MM    MM <br>
 _MYMMMM9   YMMMM9  `YMMM9'Yb_MM_  _MM_ MYMMMM9        _MM_     YMMMM9  `YMMM9'Yb_MM__MM_  _MM_  _MM_<br>
+<br><center>
+<span id="splash-text">
+</span><br>
+est. aug 2022
+</center>
 			</header>
 		</center>
 		<div id="main">
-			<div id="left">
-				<h1>homepage</h1>
-				<p>Hello! Thanks so much for stopping by my website. I'm
-				<span class="accent1"><strong>Bean</strong></span>, and I use this site to
-				store and write about various miscellany. If you like coding,
-				maths, games, or baking, you've come to the right place!</p>
-				<h2>brief introduction</h2>
-				<ul>
-					<li><span class="accent1"><strong>Name:</strong></span> Bean</li>
-					<li><span class="accent1"><strong>Age:</strong></span> 18</li>
-					<li><span class="accent1"><strong>Likes:</strong></span> Baking, programming, maths</li>
-					<li><span class="accent1"><strong>Currently Playing:</strong></span> Bioshock</li>
-					<li><span class="accent1"><strong>Currently Watching:</strong></span> Cowboy Bebop</li>
-				</ul>
-				<p>If you want to know more about me, see the <a href="about.html">about me page</a>.</p>
-				<h2>button</h2>
-				<p>If you'd like to, you can add my button to your
-				website using the below text:</p>
-				<center>
-					<!-- <img src="https://spotify-github-profile.vercel.app/api/view?uid=jsmith676&cover_image=true&theme=natemoo-re&bar_color=53b14f&bar_color_cover=true"> -->
-					<a href="https://beanrobinson.xyz"><img src="https://beanrobinson.xyz/src/button.gif"></a><br>
-				<textarea id="w3review" name="w3review" rows="3" cols="44">
-<a href="https://beanrobinson.xyz"><img src="https://beanrobinson.xyz/src/button.gif"></a>
-				</textarea></center>
-
-				<!-- begin wwww.htmlcommentbox.com -->
-				 <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
-				 <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
-				 <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24TNPjUcFjY4Y4M5D3y.BDQ1"+"&opts=16798&num=10&ts=1660053631115");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-				<!-- end www.htmlcommentbox.com -->
-			</div>
-			<div id="right">
-				<div id="topright">
-					<ul>
-						<li><a href="index.html" class="link">Home</a></li>
-						<li><a href="about.html" class="link">About Me</a></li>
-						<li><a href="links.html" class="link">Links</a></li>
-						<li><a href="stuff.html" class="link">Stuff I've Made</a></li>
-						<li><a href="credits.html" class="link">Credits</a></li>
-					</ul>
-				</div>
-				<div id="midright">
-					<img src="src/face.png" class="face">
-				</div>
-				<div id="theme">
-					<center>
-						<button id="godark">🌑 Go Dark</button>
-						<button id="golight">Go Light 🌅</button>
-					</center>
-				</div>
-				<div id="botright">
-					<div id="blinkies">
+			<div id="home-main">
+				<div class="photo-grid">
+					<div class="card card-long normbg">
+						<div class="status">
+							<div id="status-name"><span id="emoji">🐧</span> bean</div>
+							<div id="status-content">This is a test status. Hello world!</div>
+							<div id="when">now</div>
+						</div>
 					</div>
+					<!-- <div class="card card-tall normbg"> -->
+					<!-- 	<img class="floating" src="src/thinking.png"> -->
+					<!-- </div> -->
+					<div class="card normbg">
+						<img class="floating" src="src/img/chibi.png">
+					</div>
+					<div class="card">
+						<a href="about.html">
+							<img class="block" src="src/img/about.png"><br>
+							About Me
+						</a>
+					</div>
+					<div class="card">
+						<a href="links.html">
+							<img class="block" src="src/img/links.png"><br>
+							Links
+						</a>
+					</div>
+					<div class="card">
+						<a href="stuff.html">
+							<img class="block" src="src/img/stuff.png"><br>
+							Stuff I've Made
+						</a>
+					</div>
+					<div id="blinkies" class="card card-tall normbg">
+					</div>
+					<div class="card">
+						<a href="music.html">
+							<img class="block" src="src/img/music.png"><br>
+							Music
+						</a>
+					</div>
+					<div class="card card-wide">
+						<div id="theme">
+							<center>
+								<div class="imgbutton" id="godark" style="float: left"><img src="src/img/moon.png" id="moon"><br>Dark Mode</div>
+								<div class="imgbutton" id="golight" style="float: right"><img src="src/img/sun.png" id="sun"><br>Light Mode</div>
+							</center>
+						</div>
+					</div>
+					<div class="card">
+						<a href="status.html">
+							<img class="block" src="src/img/status.gif"><br>
+							Posts
+						</a>
+					</div>
+					<div class="card">
+						<a href="sitemap.html">
+							<img class="block" src="src/img/map.png"><br>
+							Sitemap
+						</a>
+					</div>
+					<div class="card">
+						<a href="credits.html">
+							<img class="block" src="src/img/credits.png"><br>
+							Credits
+						</a>
+					</div>
+				</div>
+				<div id="comments-zone">
+					<!-- begin wwww.htmlcommentbox.com -->
+					 <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
+					 <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+					 <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24TNPjUcFjY4Y4M5D3y.BDQ1"+"&opts=16798&num=10&ts=1660053631115");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+					<!-- end www.htmlcommentbox.com -->
 				</div>
 			</div>
 		</div>
 	</body>
 	<script src="index.js"></script>
 	<script src="blinkies.js"></script>
+	<script src="status.js"></script>
 	<!-- <script src="comments.js"></script> -->
 </html>
