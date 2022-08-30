@@ -1,5 +1,7 @@
-@import url("./src/palette.css");
+/* Import palette */
+@import url("./src/css/palette.css");
 
+/* Initialise fonts */
 @font-face {
   font-family: "GothicPixel";
   src: url("./src/font/GothicPixel.otf");
@@ -25,6 +27,7 @@ h1, h2, h3, h4, h5 {
 header {
 	width: 800px;
 	padding: 25px;
+	margin-left: 20px;
 	line-height: 10px;
 	text-align: center;
 	white-space: pre;
@@ -44,6 +47,7 @@ a:hover {
 	color: var(--color-accent2);
 }
 
+/* Accent colour classes */
 .accent1 {
 	color: var(--color-accent1);
 }
@@ -52,7 +56,20 @@ a:hover {
 	color: var(--color-accent2);
 }
 
+
 /* Layout */
+.home-title {
+	text-align: center;
+}
+
+#home-main {
+	width: 800px;
+	height: auto;
+	padding: 10px;
+	background-color: var(--color-bg-alt);
+	margin-bottom: 20px;
+}
+
 #main {
 	width: 800px;
 	position: absolute;
@@ -93,7 +110,7 @@ a:hover {
 }
 
 #notfound {
-	background-color: var(--color-accent2);
+	background-color: var(--color-bg-alt);
 	padding-top: 25px;
 	margin-top: 200px;
 	width: 400px;
@@ -104,8 +121,19 @@ a:hover {
 	font-size: 18px;
 }
 
+.cover {
+	padding: 0px 10px;
+	float: left;
+	width: 150px;
+}
+
+.song {
+	min-height: 200px;
+}
+
 #blinkies {
 	text-align: center;
+	font-size: 12px;
 }
 
 ul {
@@ -127,22 +155,6 @@ ul li:before {
 
 hr {
 	border-color: var(--color-accent1);
+	width: 88px;
 }
 
-#hcb_form_name, #hcb_form_content, .btn, .home-desc, #comments_list, #hcb_subscribe, #hcb_settings, #hcb_msg {
-	font-family: "Cozette" !important;
-}
-
-#hcb_msg {
-	margin: 0;
-}
-
-.home-desc {
-	display: none;
-	visibility: hidden;
-}
-
-.home-desc a {
-	text-decoration: underline !important;
-	color: var(--color-accent1) !important;
-}
