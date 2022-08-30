@@ -19,3 +19,7 @@ for (i = 0; i < statuses.length; i++) {
 	$("#statuses").append("<h2>" + statuses[i][1] + " " + statuses[i][0] +
 	" - " + statuses[i][2] + "</h2><p>" + statuses[i][3]);
 }
+
+$("#status").click(() => {
+	window.location.href = "./status.html";
+});
