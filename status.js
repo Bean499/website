@@ -1,13 +1,23 @@
-//Newest goes at the top
 const statuses = [
 	//[title, icon, date, content]
 	//In Vim, use `gqq` to make long lines into multiple lines
-	["New website design!", "💻", "29 Aug 2022",
-	`Good afternoon, dear visitor. Welcome to my little corner of the
-	internet. After a recent restructure of the site I will now be writing
-	miscellany on this page. "Why?", I hear you ask. Because I feel like
-	it, that is why. Reasons aside, you can expect more ramblings to
-	appear on this page over time. See you then!`
+	[
+		"New website design!", "💻", "29 Aug 2022",
+		`Good afternoon, dear visitor. Welcome to my little corner of the
+		internet. After a recent restructure of the site I will now be writing
+		miscellany on this page. "Why?", I hear you ask. Because I feel like
+		it, that is why. Reasons aside, you can expect more ramblings to
+		appear on this page over time. See you then!`
+	],
+	[
+		"Programming endeavours", "💡", "31 Aug 2022",
+		`After a long while of thinnking of something other than this website to
+		make, I was finally struck with inspiration this morning! After looking
+		into things, it turns out that Xiaomi's Yeelights (the smart lights I
+		have) have a Python API, so I spent most of today programming a TUI
+		program to control my smart lights. If you'd like to see more about
+		them, check out my <a href='stuff.html'>stuff page</a> for more info,
+		including source code!`
 	],
 ]
 
@@ -15,7 +25,7 @@ $("#status-content").html(statuses[0][0]);
 $("#emoji").html(statuses[0][1]);
 $("#when").html(statuses[0][2]);
 
-for (i = 0; i < statuses.length; i++) {
+for (i = statuses.length - 1; i > -1; i--) {
 	$("#statuses").append("<h2>" + statuses[i][1] + " " + statuses[i][0] +
 	" - " + statuses[i][2] + "</h2><p>" + statuses[i][3]);
 }
