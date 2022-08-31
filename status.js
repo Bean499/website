@@ -21,9 +21,10 @@ const statuses = [
 	],
 ]
 
-$("#status-content").html(statuses[0][0]);
-$("#emoji").html(statuses[0][1]);
-$("#when").html(statuses[0][2]);
+index = statuses.length - 1
+$("#status-content").html(statuses[index][0]);
+$("#emoji").html(statuses[index][1]);
+$("#when").html(statuses[index][2]);
 
 for (i = statuses.length - 1; i > -1; i--) {
 	$("#statuses").append("<h2>" + statuses[i][1] + " " + statuses[i][0] +
