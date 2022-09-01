@@ -35,6 +35,10 @@ if (theme) {
 	$("#body").attr("class", theme);
 }
 
+$("header").click(() => {
+	window.location.href = "./index.html";
+});
+
 $("#godark").click(() => {
 	$("#body").attr("class", "dark");
 	localStorage.setItem("theme", "dark");
