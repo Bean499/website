@@ -37,6 +37,13 @@ const songs = [
 		me due to this. I'm not quite sure how to explain why I
 		like it, I just do.`
 	],
+	[
+		"Wasteland", "Terraria Calamity Mod", "02/09/2022",
+		`This song is very relaxing. It also manages to stay
+		impressively faithful to Terraria's original soundtrack,
+		what with the heavy reliance on synthesized beep boops. I
+		very much enjoy it.`
+	],
 ]
 
 for (i = songs.length - 1; i > -1; i--) {
