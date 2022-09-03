@@ -44,10 +44,18 @@ const songs = [
 		what with the heavy reliance on synthesized beep boops. I
 		very much enjoy it.`
 	],
+	[
+		"Cats on Mars", "Cowboy Bebop OST 2: No Disc", "03/09/2022",
+		`This song appeals to me for how silly it is, what with the
+		gibberish "lyrics" and the funny beeps and boops. It also
+		reminds me of Edward who is easily my favourite character
+		from Cowboy Bebop. This song is very much befitting of
+		them.`
+	],
 ]
 
 for (i = songs.length - 1; i > -1; i--) {
-	$("#songs").append("<div class='song'><h3>" + songs[i][0] + " - " + songs[i][2] + "</h3><figure class='cover'><img src='src/img/songs/" + i + ".png'><figcaption>" + songs[i][1] + "</figure><p>" + songs[i][3] + "</p></div>")
+	$("#songs").append("<div class='song'><h3>" + songs[i][0] + " - " + songs[i][2] + "</h3><figure class='cover'><img src='src/img/songs/" + i + ".png'><figcaption>" + songs[i][1] + "</figcaption></figure><p>" + songs[i][3] + "</p></div>")
 }
 
 $("#recentsong").attr("src", "src/img/songs/" + (songs.length - 1) + ".png");
