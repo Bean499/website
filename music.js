@@ -52,6 +52,14 @@ const songs = [
 		from Cowboy Bebop. This song is very much befitting of
 		them.`
 	],
+	[
+		"The Alchemist's Hacen", "Shovel Knight: Plague of Shadows", "04/09/2022",
+		`This song is so very mischeivous sounding. It is
+		incredibly befitting of Plague Knight, who is
+		absolutely one of my favourite Shovel Knight
+		characters, so I'm sort of obligated to like this
+		theme.`
+	],
 ]
 
 for (i = songs.length - 1; i > -1; i--) {
