@@ -53,7 +53,7 @@ const songs = [
 		them.`
 	],
 	[
-		"The Alchemist's Hacen", "Shovel Knight: Plague of Shadows", "04/09/2022",
+		"The Alchemist's Haven", "Shovel Knight: Plague of Shadows", "04/09/2022",
 		`This song is so very mischeivous sounding. It is
 		incredibly befitting of Plague Knight, who is
 		absolutely one of my favourite Shovel Knight
