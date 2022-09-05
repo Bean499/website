@@ -60,6 +60,14 @@ const songs = [
 		characters, so I'm sort of obligated to like this
 		theme.`
 	],
+	[
+		"Death By Galmour", "UNDERTALE", "05/09/2022",
+		`This is defiitely my favourite song from UNDERTALE. It's
+		just so groovy. Mettaton is an excellent character which is
+		why I'm glad they got such a cracking battle theme. This
+		song and BIG SHOT from DELTARUNE make me wish there was a
+		full length version of Power of NEO, but oh well.`
+	],
 ]
 
 for (i = songs.length - 1; i > -1; i--) {
