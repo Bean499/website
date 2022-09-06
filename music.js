@@ -68,6 +68,13 @@ const songs = [
 		song and BIG SHOT from DELTARUNE make me wish there was a
 		full length version of Power of NEO, but oh well.`
 	],
+	[
+		"Destructive Goodwill", "GUILTY GEAR Xrd -SIGN-", "06/09/2022",
+		`I am a massive fan of this song. It fits Faust so
+		perfectly, what with the swapping between the more serious
+		guitar sections and the silly piano sections. This one is
+		very good.`
+	],
 ]
 
 for (i = songs.length - 1; i > -1; i--) {
