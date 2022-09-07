@@ -75,6 +75,11 @@ const songs = [
 		guitar sections and the silly piano sections. This one is
 		very good.`
 	],
+	[
+		"hello world", "Louie Zong", "07/09/2022",
+		`Funny text to speech singing and a good melody. I need no
+		more reason to like a song.`
+	]
 ]
 
 for (i = songs.length - 1; i > -1; i--) {
