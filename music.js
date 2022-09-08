@@ -79,6 +79,15 @@ const songs = [
 		"hello world", "Louie Zong", "07/09/2022",
 		`Funny text to speech singing and a good melody. I need no
 		more reason to like a song.`
+	],
+	[
+		"Id (Purpose)", "Fire Emblem Awakening", "08/09/2022",
+		`This song is absolutely fabulous. You can tell that they
+		went all out, because this is absolutely the best final map
+		theme from the Fire Emblem series. Which makes sense, since
+		this was meant to be the last game in the series. Fire
+		Emblem Awakening is a game that is very important to me,
+		which is why I have a very strong attachment to this song.`
 	]
 ]
 
