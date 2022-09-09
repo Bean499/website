@@ -88,11 +88,19 @@ const songs = [
 		this was meant to be the last game in the series. Fire
 		Emblem Awakening is a game that is very important to me,
 		which is why I have a very strong attachment to this song.`
-	]
+	],
+	[
+		"Far Dawn", "Fire Emblem Fates", "09/09/2022",
+		`After listening to the Fire Emblem Awakening OST yesterday
+		I felt somewhat obligated to revisit Fire Emblem Fates too
+		today. Far Dawn is my favourite song quite easily. I heard
+		this song a lot from it playing in the castle hub that the
+		game has, so this evokes some rather nostalgic memories.`
+	],
 ]
 
 for (i = songs.length - 1; i > -1; i--) {
-	$("#songs").append("<div class='song'><h3>" + songs[i][0] + " - " + songs[i][2] + "</h3><figure class='cover'><center><img src='src/img/songs/" + i + ".png'></center><figcaption>" + songs[i][1] + "</figcaption></figure><p>" + songs[i][3] + "</p></div>")
+	$("#songs").append("<div class='song'><h3>" + songs[i][0] + " - " + songs[i][2] + "</h3><figure class='cover'><img src='src/img/songs/" + i + ".png'><figcaption>" + songs[i][1] + "</figcaption></figure><p>" + songs[i][3] + "</p></div>")
 }
 
 $("#recentsong").attr("src", "src/img/songs/" + (songs.length - 1) + ".png");
