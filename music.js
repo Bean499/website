@@ -92,7 +92,7 @@ const songs = [
 ]
 
 for (i = songs.length - 1; i > -1; i--) {
-	$("#songs").append("<div class='song'><h3>" + songs[i][0] + " - " + songs[i][2] + "</h3><figure class='cover'><img src='src/img/songs/" + i + ".png'><figcaption>" + songs[i][1] + "</figcaption></figure><p>" + songs[i][3] + "</p></div>")
+	$("#songs").append("<div class='song'><h3>" + songs[i][0] + " - " + songs[i][2] + "</h3><figure class='cover'><center><img src='src/img/songs/" + i + ".png'></center><figcaption>" + songs[i][1] + "</figcaption></figure><p>" + songs[i][3] + "</p></div>")
 }
 
 $("#recentsong").attr("src", "src/img/songs/" + (songs.length - 1) + ".png");
