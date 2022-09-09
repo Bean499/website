@@ -127,6 +127,7 @@ a:hover {
 	margin: 0;
 	float: left;
 	width: 150px;
+	text-align: center;
 }
 
 .cover figcaption {
@@ -134,7 +135,8 @@ a:hover {
 }
 
 .cover img {
-	height: 150px;
+	max-width: 150px !important;
+	max-height: 150px;
 }
 
 #recenttitle {
