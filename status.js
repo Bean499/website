@@ -19,6 +19,24 @@ const statuses = [
 		them, check out my <a href='stuff.html'>stuff page</a> for more info,
 		including source code!`
 	],
+	[
+		"Splatoon 3", "🦑", "10 Sep 2022",
+		`Splatoon 3 looks really cool! I sitll don't have it yet but I have
+		been listening to the soundtrack quite a bit and it is as wonderful as
+		I have come to expect Splatoon's music to be. I did play the demo,
+		which was very fun. I enjoyed the NZap for its Tacticooler, which was
+		very useful in coordinated play with my friends.`
+	],
+	[
+		"Ultrawide monitor", "🖥", "11 Sep 2022",
+		`<img src="src/img/stuff/monitor.png">Before going to university I
+		have invested in an ultrawide monitor to connect to my laptop, and oh
+		my goodness was that a good chocie! The increase in space is so
+		wonderful. I have particularly enjoyed maintaining my website since I
+		now have the space for two editors to be open alongside a windows of
+		the actual website. Additionally, the USB ports on the back of it are
+		super useful for lessening the mess of cable management.`
+	],
 ]
 
 index = statuses.length - 1
