@@ -38,7 +38,7 @@ const statuses = [
 		super useful for lessening the mess of cable management.`
 	],
 	[
-		"Filesystem organisation", "📂", "11 Sep 2022",
+		"Filesystem organisation", "📂", "12 Sep 2022",
 		`After talking to a friend about it today, I've given my computer's
 		filesystem a good reorganisation. Before it was cluttered, which made
 		it hard to naviagte, especially via a command line, but after a few
