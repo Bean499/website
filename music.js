@@ -97,6 +97,25 @@ const songs = [
 		this song a lot from it playing in the castle hub that the
 		game has, so this evokes some rather nostalgic memories.`
 	],
+	[
+		"Paintscraper", "Splatune 3", "10/09/2022",
+		`This is probably my favourite of the Splatoon 3 songs I've listened
+		to. The guitar bit at the start is so good, and the classic
+		nonsensical lyrics are as good as ever. They did another great job
+		with this game's soundtrack.`
+	],
+	[
+		"calm4.ogg", "Minecraft Volume Alpha", "11/09/2022",
+		`I really love this song. To me it is one of the most Minecrafty
+		Minecraft songs, which is odd considering this is one of the ones
+		removed in the game's alpha! It's a real shame they cut this track.
+		Granted, "calm" isn't exactly how I'd describe it, but if that's the
+		reason it got cut then they would've just renamed it. I will forever
+		ponder the removal of this song. Also, this song is added to the
+		playlist as "Magnetic Circuit", which is the title Notch rereleased
+		the song under on his SoundCloud page. It's a much more befitting
+		name, I think.`
+	],
 ]
 
 for (i = songs.length - 1; i > -1; i--) {
