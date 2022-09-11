@@ -28,7 +28,7 @@ const statuses = [
 		very useful in coordinated play with my friends.`
 	],
 	[
-		"Ultrawide monitor", "🖥", "11 Sep 2022",
+		"Ultrawide monitor", "🖥️", "11 Sep 2022",
 		`<img src="src/img/stuff/monitor.png">Before going to university I
 		have invested in an ultrawide monitor to connect to my laptop, and oh
 		my goodness was that a good chocie! The increase in space is so
