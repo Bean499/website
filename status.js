@@ -37,6 +37,20 @@ const statuses = [
 		the actual website. Additionally, the USB ports on the back of it are
 		super useful for lessening the mess of cable management.`
 	],
+	[
+		"Filesystem organisation", "📂", "11 Sep 2022",
+		`After talking to a friend about it today, I've given my computer's
+		filesystem a good reorganisation. Before it was cluttered, which made
+		it hard to naviagte, especially via a command line, but after a few
+		changes I am already becoming much more efficient. The first change I
+		made was renaming folders in the root of my home directory to something
+		short and simple. For example, "Documents" became simply "docs". All
+		names were 4 letters which mean they were all in a standard format. The
+		second change was numbering important subdirectories so that they
+		appear in a good order, as well as making it easier to move into them
+		using the cd command and tab completion. Doing these two things has
+		made my life a lot easier!`
+	],
 ]
 
 index = statuses.length - 1
