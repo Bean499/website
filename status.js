@@ -51,6 +51,23 @@ const statuses = [
 		using the cd command and tab completion. Doing these two things has
 		made my life a lot easier!`
 	],
+	[
+		"Terminal music players", "🎵", "13 Sep 2022",
+		`Recently I have become increasingly inclined to use terminal
+		applicaitons so as to be able to do whatever I want from the terminal.
+		One thing I have wanted for a while was a usic player. I begrudgingly
+		switched to Spotify to use <a
+		href="https://github.com/Rigellute/spotify-tui">spotify-tui</a>, but
+		it required Spotify premium, so I gave up using it after a while. I
+		didn't want to have to download all the music I play, but today I have
+		downloaded a few albums so taht I can give <a href="https://github.com/ncmpcpp/ncmpcpp">
+		ncmpcpp</a> a go. So far my experience with it and mpd have been
+		positive, besides needing another application for MPRIS media key
+		support. It is very nice not needing anything to be open for my music
+		to play, but it is somewhat a faff moving from streaming all my music
+		to needing now to download it. I will see whether it becomes too
+		annoying and perhaps be tempted back into using a GUI.`
+	],
 ]
 
 index = statuses.length - 1
