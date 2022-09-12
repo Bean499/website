@@ -116,11 +116,41 @@ const songs = [
 		the song under on his SoundCloud page. It's a much more befitting
 		name, I think.`
 	],
+	[
+		"Like A Weed, Naturally, As A Matter Of Course", "GUILTY GEAR -STRIVE-", "12/09/2022",
+		`I wanted to try for as long as I could before putting multiple songs
+		from one album into the playlist. If I didn't this would probably have
+		been the second song I put on it. Testament is definitely my second
+		favourite character from Guilty Gear and I was so hyped when they
+		revealed they would be returning in GUILTY GEAR -STRIVE- after so many
+		years. I have another friend who really likes Testament and we just
+		went absolutely crazy on that day. Their redesign was simply fabulous
+		(massive bonus points for the presence of a top hat) and it was also
+		really coold for them to be canonically non-binary. And you top all
+		that off with a killer song like this that does a cracking job of
+		sounding like Testament (the band that the character was named after)?
+		Why, that's a recipe for a grand return indeed!`,
+		0
+	]
 ]
 
 for (i = songs.length - 1; i > -1; i--) {
-	$("#songs").append("<div class='song'><h3>" + songs[i][0] + " - " + songs[i][2] + "</h3><figure class='cover'><img src='src/img/songs/" + i + ".png'><figcaption>" + songs[i][1] + "</figcaption></figure><p>" + songs[i][3] + "</p></div>")
+	let cover;
+	if (songs[i].length > 4) {
+		cover = songs[i][4];
+	}
+	else {
+		cover = i;
+	}
+	$("#songs").append("<div class='song'><h3>" + songs[i][0] + " - " + songs[i][2] + "</h3><figure class='cover'><img src='src/img/songs/" + cover + ".png'><figcaption>" + songs[i][1] + "</figcaption></figure><p>" + songs[i][3] + "</p></div>")
 }
 
-$("#recentsong").attr("src", "src/img/songs/" + (songs.length - 1) + ".png");
+let cover;
+if (songs[songs.length - 1].length > 4) {
+	cover = songs[songs.length - 1][4];
+}
+else {
+	cover = songs.length - 1;
+}
+$("#recentsong").attr("src", "src/img/songs/" + cover + ".png");
 $("#recenttitle").html(songs[songs.length - 1][0]);
