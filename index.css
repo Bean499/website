@@ -140,7 +140,8 @@ a:hover {
 }
 
 #recenttitle {
-	font-size: 18px;
+	padding: 0;
+	font-size: 1vw;
 }
 
 .song {
