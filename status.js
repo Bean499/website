@@ -20,7 +20,7 @@ const statuses = [
 		including source code!`
 	],
 	[
-		"Splatoon 3", "🦑", "10 Sep 2022",
+		"Splatoon 3", "🦑", "9 Sep 2022",
 		`Splatoon 3 looks really cool! I sitll don't have it yet but I have
 		been listening to the soundtrack quite a bit and it is as wonderful as
 		I have come to expect Splatoon's music to be. I did play the demo,
@@ -28,7 +28,7 @@ const statuses = [
 		very useful in coordinated play with my friends.`
 	],
 	[
-		"Ultrawide monitor", "🖥️", "11 Sep 2022",
+		"Ultrawide monitor", "🖥️", "10 Sep 2022",
 		`<img src="src/img/stuff/monitor.png">Before going to university I
 		have invested in an ultrawide monitor to connect to my laptop, and oh
 		my goodness was that a good chocie! The increase in space is so
@@ -38,7 +38,7 @@ const statuses = [
 		super useful for lessening the mess of cable management.`
 	],
 	[
-		"Filesystem organisation", "📂", "12 Sep 2022",
+		"Filesystem organisation", "📂", "11 Sep 2022",
 		`After talking to a friend about it today, I've given my computer's
 		filesystem a good reorganisation. Before it was cluttered, which made
 		it hard to naviagte, especially via a command line, but after a few
@@ -52,7 +52,7 @@ const statuses = [
 		made my life a lot easier!`
 	],
 	[
-		"Terminal music players", "🎵", "13 Sep 2022",
+		"Terminal music players", "🎵", "12 Sep 2022",
 		`Recently I have become increasingly inclined to use terminal
 		applicaitons so as to be able to do whatever I want from the terminal.
 		One thing I have wanted for a while was a usic player. I begrudgingly
@@ -67,6 +67,24 @@ const statuses = [
 		to play, but it is somewhat a faff moving from streaming all my music
 		to needing now to download it. I will see whether it becomes too
 		annoying and perhaps be tempted back into using a GUI.`
+	],
+	[
+		"Nintendo Direct", "🎮", "13 Sep 2022",
+		`The Nintendo Direct was amazing! There were three things I wanted: a
+		new Fire Emblem, a new Kirby, and anything to let us know Pikmin 4 is
+		real, and somehow I got all 4! <br> First of all, Fire Emblem Engage
+		looks brilliant. Not everyone seems to like toothpaste man, but I think
+		he's cute and has a fun design. I alsoe hope we'll get more lore about
+		Grima since the main villain seems to be "The Fell Dragon", which could
+		or could not be Grima. Also, I really like the visuals. All the UI
+		looks really clean! <br> Next, Kirby's Return to Dreamland Deluxe looks
+		cool too. I really like the nice solid outlines everything has. It
+		makes it look fun and cartoony. Also, this is probably the second best
+		game they could've chosen to remake, with the best on being Amazing
+		Mirror, but that would likely have been a lot more effort, so we
+		wouldn't have got it so close to Forgotten Land. <br> Lastly is Pikmin
+		4. Oh my goodness. It has been 9 years! I'm so excited for new Pikmin
+		content!`
 	],
 ]
 
