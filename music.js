@@ -144,6 +144,13 @@ const songs = [
 		Conquest, but nothing tops Greenleaf. It really hits me with a lot of
 		nostalgia.`
 	],
+	[
+		"Sand Canyon 1", "Kirby's Dreamland 3", "15/09/2022",
+		`A very fun and whimsical song, as is most of the Kirby's Dreamland 3
+		soundtrack. This song has been premanently burned into my brain
+		because of <a href="https://youtu.be/ixDpndpzh_4">this SiIvaGunner
+		rip</a>.`
+	],
 ]
 
 for (i = songs.length - 1; i > -1; i--) {
