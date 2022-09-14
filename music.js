@@ -132,6 +132,18 @@ const songs = [
 		Why, that's a recipe for a grand return indeed!`,
 		0
 	]
+	[
+		"Electric Crown", "The Ritual", "13/09/2022",
+		`When I found out Testament was named after a band, I naturally went to
+		see what kind of songs they produced. I enjoyed them very much, but
+		this one is my favourite.`
+	],
+	[
+		"Greenleaf", "Pokemon Conquest", "14/09/2022",
+		`This song is so very relaxing. I really love the music of Pokemon
+		Conquest, but nothing tops Greenleaf. It really hits me with a lot of
+		nostalgia.`
+	],
 ]
 
 for (i = songs.length - 1; i > -1; i--) {
