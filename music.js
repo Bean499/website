@@ -131,7 +131,7 @@ const songs = [
 		sounding like Testament (the band that the character was named after)?
 		Why, that's a recipe for a grand return indeed!`,
 		0
-	]
+	],
 	[
 		"Electric Crown", "The Ritual", "13/09/2022",
 		`When I found out Testament was named after a band, I naturally went to
