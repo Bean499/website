@@ -25,6 +25,7 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
+	cursor: pointer;
 	width: 800px;
 	padding: 25px;
 	margin-left: 20px;

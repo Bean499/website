@@ -3,6 +3,7 @@
 	height: 140px;
 	width: 600px;
 	background-color: var(--color-bg);
+	cursor: pointer;
 }
 
 #status:after {
