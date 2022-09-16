@@ -151,6 +151,13 @@ const songs = [
 		because of <a href="https://youtu.be/ixDpndpzh_4">this SiIvaGunner
 		rip</a>.`
 	],
+	[
+		"Perfume", "Sessions: Star Guardian Taliyah", "16/09/2022",
+		`I'm a really big fan of most of this album (as well as the other ones
+		amde by Riot Games Music), but Perfume is definitely my favourite. I'm
+		a big fan of the high energy, and especially the fun twinkly sounds it
+		uses.`
+	],
 ]
 
 for (i = songs.length - 1; i > -1; i--) {
