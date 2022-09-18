@@ -158,6 +158,26 @@ const songs = [
 		a big fan of the high energy, and especially the fun twinkly sounds it
 		uses.`
 	],
+	[
+		"Keep In Gates", "GUILTY GEAR XX Accent Core +R", "17/09/2022",
+		`More Guitly Gear music? Of course! I really like this song's
+		spooky vibe combined with it just being good metal music. I don't
+		really have much else to say. It's just a good song. Oh, and ABA is a
+		great character! I was really pleased to see that she was actually
+		quite popular int he recent character popularity polls. I dearly hope
+		she returns ing GUILTY GEAR -STRIVE-! Though, to be honest, I would
+		definitely rather see Raven again, but that won't happen. To the 3
+		other Raven fans, tonight we weep...`
+	],
+	[
+		"Trap Phantasm", "Mega Man ZX Advent", "18/09/2022",
+		`Though Mega Man ZX Advent was somewhat lacking, I do think it has
+		quite a good soundtrack. Don't get me wrong, it's not on the same level
+		as Mega Man Zero, but it's good. Except for this song, which is just
+		wonderful (and so is Trap Factory)! Really good synth,a s one should
+		expect from a Mega Man song, but with also really good guitar. Quite
+		simply cracking!`
+	]
 ]
 
 for (i = songs.length - 1; i > -1; i--) {
