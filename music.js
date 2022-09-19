@@ -177,6 +177,17 @@ const songs = [
 		wonderful (and so is Trap Factory)! Really good synth,a s one should
 		expect from a Mega Man song, but with also really good guitar. Quite
 		simply cracking!`
+	],
+	[
+		"Icosa", "Oliver Buckland", "19/09/2022",
+		`<a
+		href='https://youtube.com/playlist?list=PLhPaJURyApsoMQDaoft5t0l0iAwUOLtlM'>E-NA</a>
+		is such a wonderful series of animations, and if you haven't seen the
+		videos in the series then you simply must. One thing I did not expect
+		from it, though, was such a cracking soundtrack. This song has such an
+		air of whimsy to it that is really quite wonderful. It was quite hard
+		to choose whether to pick this or Hourglass Meadow. I anticipate I will
+		end up adding the latter eventually.`
 	]
 ]
 
