@@ -59,6 +59,12 @@ a:hover {
 
 
 /* Layout */
+#construction {
+	background-color: var(--color-bg-alt);
+	padding: 10px;
+	width: 300px;
+}
+
 .home-title {
 	text-align: center;
 }
