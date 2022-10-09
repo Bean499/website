@@ -180,8 +180,7 @@ const songs = [
 	],
 	[
 		"Icosa", "Oliver Buckland", "19/09/2022",
-		`<a
-		href='https://youtube.com/playlist?list=PLhPaJURyApsoMQDaoft5t0l0iAwUOLtlM'>E-NA</a>
+		`<a href='https://youtube.com/playlist?list=PLhPaJURyApsoMQDaoft5t0l0iAwUOLtlM'>E-NA</a>
 		is such a wonderful series of animations, and if you haven't seen the
 		videos in the series then you simply must. One thing I did not expect
 		from it, though, was such a cracking soundtrack. This song has such an
