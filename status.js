@@ -74,7 +74,7 @@ const statuses = [
 		new Fire Emblem, a new Kirby, and anything to let us know Pikmin 4 is
 		real, and somehow I got all 4! <br> First of all, Fire Emblem Engage
 		looks brilliant. Not everyone seems to like toothpaste man, but I think
-		he's cute and has a fun design. I alsoe hope we'll get more lore about
+		he's cute and has a fun design. I also hope we'll get more lore about
 		Grima since the main villain seems to be "The Fell Dragon", which could
 		or could not be Grima. Also, I really like the visuals. All the UI
 		looks really clean! <br> Next, Kirby's Return to Dreamland Deluxe looks
@@ -86,6 +86,13 @@ const statuses = [
 		4. Oh my goodness. It has been 9 years! I'm so excited for new Pikmin
 		content!`
 	],
+	[
+		"Moving to university", "🎓", "24 Sep 2022",
+		`Today I moved into unviersity. It was fun but very scary. I'm looking
+		forward to life here, but I'm also rather scared. I think that's rather
+		normal though. Here's a picture of my room: <br>
+		<img src="src/img/stuff/room.png">`
+	]
 ]
 
 index = statuses.length - 1
