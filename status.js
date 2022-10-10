@@ -91,7 +91,9 @@ const statuses = [
 		`Today I moved into unviersity. It was fun but very scary. I'm looking
 		forward to life here, but I'm also rather scared. I think that's rather
 		normal though. Here's a picture of my room: <br>
-		<img src="src/img/stuff/room.png">`
+		<img src="src/img/stuff/room.png"><br>
+		I'm probably going to be quite busy now, so don't expect too many
+		updates. Hopefully I'll get around to writing one soon though!`
 	]
 ]
 
